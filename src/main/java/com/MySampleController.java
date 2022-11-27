@@ -9,7 +9,7 @@ public class MySampleController {
 
 	@GetMapping(value = "/")
 	public String greeting() {
-		return "Welcome to Spring boot with AWS created by Akash Kale!";
+		return "Welcome to Spring boot with AWS created by Akash Kale! I am Java Full Trainer";
 	}
 	
 	@GetMapping(value = "say/{name}")
